@@ -13,7 +13,7 @@
 		D376A3211B1CF3A500F5C165 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D376A31F1B1CF3A500F5C165 /* Main.storyboard */; };
 		D376A3231B1CF3A500F5C165 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D376A3221B1CF3A500F5C165 /* Images.xcassets */; };
 		D376A3261B1CF3A500F5C165 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = D376A3241B1CF3A500F5C165 /* LaunchScreen.xib */; };
-		D376A3321B1CF3A500F5C165 /* WalletTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D376A3311B1CF3A500F5C165 /* WalletTests.m */; };
+		D376A33C1B1CF55700F5C165 /* ADMEuroTest.m in Sources */ = {isa = PBXBuildFile; fileRef = D376A33B1B1CF55700F5C165 /* ADMEuroTest.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,7 +39,7 @@
 		D376A3251B1CF3A500F5C165 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		D376A32B1B1CF3A500F5C165 /* WalletTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WalletTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D376A3301B1CF3A500F5C165 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		D376A3311B1CF3A500F5C165 /* WalletTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WalletTests.m; sourceTree = "<group>"; };
+		D376A33B1B1CF55700F5C165 /* ADMEuroTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ADMEuroTest.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,8 +105,8 @@
 		D376A32E1B1CF3A500F5C165 /* WalletTests */ = {
 			isa = PBXGroup;
 			children = (
-				D376A3311B1CF3A500F5C165 /* WalletTests.m */,
 				D376A32F1B1CF3A500F5C165 /* Supporting Files */,
+				D376A33B1B1CF55700F5C165 /* ADMEuroTest.m */,
 			);
 			path = WalletTests;
 			sourceTree = "<group>";
@@ -229,7 +229,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D376A3321B1CF3A500F5C165 /* WalletTests.m in Sources */,
+				D376A33C1B1CF55700F5C165 /* ADMEuroTest.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

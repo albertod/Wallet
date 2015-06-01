@@ -1,6 +1,6 @@
 //
-//  WalletTests.m
-//  WalletTests
+//  ADMEuroTest.m
+//  Wallet
 //
 //  Created by Alberto Di Martino on 6/1/15.
 //  Copyright (c) 2015 DiMartino. All rights reserved.
@@ -9,11 +9,11 @@
 #import <UIKit/UIKit.h>
 #import <XCTest/XCTest.h>
 
-@interface WalletTests : XCTestCase
+@interface ADMEuroTest : XCTestCase
 
 @end
 
-@implementation WalletTests
+@implementation ADMEuroTest
 
 - (void)setUp {
     [super setUp];
