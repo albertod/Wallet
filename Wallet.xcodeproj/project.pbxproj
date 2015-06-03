@@ -13,7 +13,12 @@
 		D376A3211B1CF3A500F5C165 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D376A31F1B1CF3A500F5C165 /* Main.storyboard */; };
 		D376A3231B1CF3A500F5C165 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D376A3221B1CF3A500F5C165 /* Images.xcassets */; };
 		D376A3261B1CF3A500F5C165 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = D376A3241B1CF3A500F5C165 /* LaunchScreen.xib */; };
-		D376A33C1B1CF55700F5C165 /* ADMEuroTest.m in Sources */ = {isa = PBXBuildFile; fileRef = D376A33B1B1CF55700F5C165 /* ADMEuroTest.m */; };
+		D376A34A1B1D067D00F5C165 /* ADMMoney.m in Sources */ = {isa = PBXBuildFile; fileRef = D376A3491B1D067D00F5C165 /* ADMMoney.m */; };
+		D376A34D1B1D08DD00F5C165 /* NSObject+GNUStep.m in Sources */ = {isa = PBXBuildFile; fileRef = D376A34C1B1D08DD00F5C165 /* NSObject+GNUStep.m */; };
+		D376A3501B1D0B1500F5C165 /* ADMMoneyTest.m in Sources */ = {isa = PBXBuildFile; fileRef = D376A34F1B1D0B1500F5C165 /* ADMMoneyTest.m */; };
+		D376A3511B1D0B2600F5C165 /* ADMMoney.m in Sources */ = {isa = PBXBuildFile; fileRef = D376A3491B1D067D00F5C165 /* ADMMoney.m */; };
+		D39E1E241B1E758000FC48F0 /* ADMBrokerTest.m in Sources */ = {isa = PBXBuildFile; fileRef = D39E1E231B1E758000FC48F0 /* ADMBrokerTest.m */; };
+		D39E1E271B1E767F00FC48F0 /* ADMBroker.m in Sources */ = {isa = PBXBuildFile; fileRef = D39E1E261B1E767F00FC48F0 /* ADMBroker.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,7 +44,14 @@
 		D376A3251B1CF3A500F5C165 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		D376A32B1B1CF3A500F5C165 /* WalletTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WalletTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D376A3301B1CF3A500F5C165 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		D376A33B1B1CF55700F5C165 /* ADMEuroTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ADMEuroTest.m; sourceTree = "<group>"; };
+		D376A3481B1D067D00F5C165 /* ADMMoney.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ADMMoney.h; sourceTree = "<group>"; };
+		D376A3491B1D067D00F5C165 /* ADMMoney.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ADMMoney.m; sourceTree = "<group>"; };
+		D376A34B1B1D08DD00F5C165 /* NSObject+GNUStep.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+GNUStep.h"; sourceTree = "<group>"; };
+		D376A34C1B1D08DD00F5C165 /* NSObject+GNUStep.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+GNUStep.m"; sourceTree = "<group>"; };
+		D376A34F1B1D0B1500F5C165 /* ADMMoneyTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ADMMoneyTest.m; sourceTree = "<group>"; };
+		D39E1E231B1E758000FC48F0 /* ADMBrokerTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ADMBrokerTest.m; sourceTree = "<group>"; };
+		D39E1E251B1E767E00FC48F0 /* ADMBroker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ADMBroker.h; sourceTree = "<group>"; };
+		D39E1E261B1E767F00FC48F0 /* ADMBroker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ADMBroker.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +76,7 @@
 			isa = PBXGroup;
 			children = (
 				D376A3141B1CF3A500F5C165 /* Wallet */,
+				D376A32F1B1CF3A500F5C165 /* Supporting Files */,
 				D376A32E1B1CF3A500F5C165 /* WalletTests */,
 				D376A3131B1CF3A500F5C165 /* Products */,
 			);
@@ -81,6 +94,8 @@
 		D376A3141B1CF3A500F5C165 /* Wallet */ = {
 			isa = PBXGroup;
 			children = (
+				D376A34E1B1D08E400F5C165 /* Categories */,
+				D376A3401B1CF66100F5C165 /* Models */,
 				D376A3191B1CF3A500F5C165 /* AppDelegate.h */,
 				D376A31A1B1CF3A500F5C165 /* AppDelegate.m */,
 				D376A31C1B1CF3A500F5C165 /* ViewController.h */,
@@ -105,8 +120,8 @@
 		D376A32E1B1CF3A500F5C165 /* WalletTests */ = {
 			isa = PBXGroup;
 			children = (
-				D376A32F1B1CF3A500F5C165 /* Supporting Files */,
-				D376A33B1B1CF55700F5C165 /* ADMEuroTest.m */,
+				D376A34F1B1D0B1500F5C165 /* ADMMoneyTest.m */,
+				D39E1E231B1E758000FC48F0 /* ADMBrokerTest.m */,
 			);
 			path = WalletTests;
 			sourceTree = "<group>";
@@ -117,6 +132,27 @@
 				D376A3301B1CF3A500F5C165 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			path = WalletTests;
+			sourceTree = "<group>";
+		};
+		D376A3401B1CF66100F5C165 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				D376A3481B1D067D00F5C165 /* ADMMoney.h */,
+				D376A3491B1D067D00F5C165 /* ADMMoney.m */,
+				D39E1E251B1E767E00FC48F0 /* ADMBroker.h */,
+				D39E1E261B1E767F00FC48F0 /* ADMBroker.m */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		D376A34E1B1D08E400F5C165 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				D376A34B1B1D08DD00F5C165 /* NSObject+GNUStep.h */,
+				D376A34C1B1D08DD00F5C165 /* NSObject+GNUStep.m */,
+			);
+			name = Categories;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -220,8 +256,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				D376A31E1B1CF3A500F5C165 /* ViewController.m in Sources */,
+				D376A34D1B1D08DD00F5C165 /* NSObject+GNUStep.m in Sources */,
+				D376A34A1B1D067D00F5C165 /* ADMMoney.m in Sources */,
 				D376A31B1B1CF3A500F5C165 /* AppDelegate.m in Sources */,
 				D376A3181B1CF3A500F5C165 /* main.m in Sources */,
+				D39E1E271B1E767F00FC48F0 /* ADMBroker.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -229,7 +268,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D376A33C1B1CF55700F5C165 /* ADMEuroTest.m in Sources */,
+				D39E1E241B1E758000FC48F0 /* ADMBrokerTest.m in Sources */,
+				D376A3511B1D0B2600F5C165 /* ADMMoney.m in Sources */,
+				D376A3501B1D0B1500F5C165 /* ADMMoneyTest.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -418,6 +459,7 @@
 				D376A3371B1CF3A500F5C165 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D376A3381B1CF3A500F5C165 /* Build configuration list for PBXNativeTarget "WalletTests" */ = {
 			isa = XCConfigurationList;
@@ -426,6 +468,7 @@
 				D376A33A1B1CF3A500F5C165 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
