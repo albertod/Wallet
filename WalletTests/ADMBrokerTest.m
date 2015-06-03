@@ -50,7 +50,7 @@
 
 -(void) testThatNilConversitonDoesNotChangeMoney{
     
-    XCTAssertEqualObjects(self.oneDollar.amount,[self.emptyBroker reduce:self.oneDollar toCurrency:@"USD"].amount,@"A nil convertion should ot have anhy effect");
+    XCTAssertEqualObjects(self.oneDollar,[self.emptyBroker reduce:self.oneDollar toCurrency:@"USD"],@"A nil convertion should ot have anhy effect");
 }
 
 //$10 == 5 Euros 2:1

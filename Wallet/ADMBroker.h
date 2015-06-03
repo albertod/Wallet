@@ -9,10 +9,15 @@
 #import <Foundation/Foundation.h>
 #import "ADMMoney.h"
 
+
 @interface ADMBroker : NSObject
 
--(ADMMoney *) reduce:(ADMMoney *) money toCurrency:(NSString *) currency;
+@property (strong,nonatomic) NSMutableDictionary *rates;
+
+-(ADMMoney *) reduce:(id<ADMMoney>) money toCurrency:(NSString *) currency;
 -(void) addRate:(NSUInteger) rate
    fromCurrency:(NSString *) fromCurrency
      toCurrency:(NSString *) toCurrency;
+-(NSString *) keyFromCurrency:(NSString *)fromCurrency
+                   toCurrency:(NSString *)toCurrency;
 @end

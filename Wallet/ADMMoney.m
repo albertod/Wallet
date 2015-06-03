@@ -7,9 +7,9 @@
 //
 
 #import "ADMMoney.h"
+#import "ADMBroker.h"
 
 @interface ADMMoney ()
-
 
 @end
 @implementation ADMMoney
@@ -36,15 +36,15 @@
         return self;
 }
 
--(ADMMoney *) times:(NSUInteger)multiplier{
+-(id<ADMMoney>) times:(NSUInteger)multiplier{
     
     return [[ADMMoney alloc] initWithAmount:multiplier * [self.amount unsignedIntegerValue] currency:self.currency];
             
 }
 
--(ADMMoney *) plus:(ADMMoney *) sum{
+-(id<ADMMoney>) plus:(ADMMoney *) sum{
     
-    return [[ADMMoney alloc] initWithAmount:[self.amount unsignedIntegerValue] + [[sum amount] unsignedIntegerValue] currency:self.currency];
+    return [[ADMMoney alloc] initWithAmount:[self.amount doubleValue] + [sum.amount doubleValue] currency:self.currency];
 }
 
 
@@ -55,6 +55,32 @@
     }else{
         return FALSE;
     }
+}
+
+-(ADMMoney *) reduceTOCurrency:(NSString *)currency
+                    withBroker:(ADMBroker *)broker{
+ 
+    //check if the dest and source currency are the same
+    ADMMoney *result;
+    double rate = [[broker.rates objectForKey:[broker
+                                               keyFromCurrency:self.currency
+                                                       toCurrency:currency]] doubleValue] ;
+    if([self.currency isEqualToString:currency]){
+        return result = self;
+    }else if(rate == 0 ){
+        //there isn't a convertion rate
+        [NSException raise:@"NoConvertionRateException"
+                    format:@"Must have a conversion from %@ to %@",self.currency, currency];
+    }else{
+        
+        NSInteger newAmount = [[self amount] unsignedIntegerValue] * rate;
+        result = [[ADMMoney alloc]
+                  initWithAmount:newAmount
+                  currency:currency];
+    }
+    
+    return result;
+
 }
 
 

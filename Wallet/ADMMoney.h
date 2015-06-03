@@ -8,8 +8,19 @@
 
 #import <Foundation/Foundation.h>
 
+@class ADMBroker;
+@class ADMMoney;
+@protocol ADMMoney <NSObject>
 
-@interface ADMMoney : NSObject
+-(id) initWithAmount:(NSUInteger)ammount currency:(NSString *) currency;
+-(id<ADMMoney>) times:(NSUInteger) multiplier; //returns an object that implements the ADMMoney protocol (ADMMoney or ADMWallet)
+-(id<ADMMoney>) plus:(ADMMoney *) sum;
+-(ADMMoney *) reduceTOCurrency:(NSString *) currency withBroker:(ADMBroker * ) broker;
+
+
+@end
+
+@interface ADMMoney : NSObject <ADMMoney>
 
 @property (copy,readonly) NSString *currency;
 @property (nonatomic,strong,readonly) NSNumber* amount;
@@ -17,10 +28,7 @@
 +(instancetype) dollarWithAmmount:(NSUInteger) amount;
 +(instancetype) euroWithAmmount:(NSUInteger) amount;
 
--(id) initWithAmount:(NSUInteger)ammount currency:(NSString *) currency;
--(ADMMoney *) times:(NSUInteger) multiplier;
--(ADMMoney *) plus:(ADMMoney *) sum;
-
 -(NSString *) currency;
 
 @end
+

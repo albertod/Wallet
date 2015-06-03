@@ -6,32 +6,16 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "WalletTests/ADMBrokerTest.m"
-            timestampString = "454987334.417606"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "64"
-            endingLineNumber = "64"
-            landmarkName = "-testReduction"
-            landmarkType = "5">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "WalletTests/ADMBrokerTest.m"
-            timestampString = "454987608.406031"
+            filePath = "Wallet/ADMWallet.m"
+            timestampString = "455059624.79518"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "57"
-            endingLineNumber = "57"
-            landmarkName = "-testReduction"
+            startingLineNumber = "84"
+            endingLineNumber = "84"
+            landmarkName = "-reduceTOCurrency:withBroker:"
             landmarkType = "5">
          </BreakpointContent>
       </BreakpointProxy>

@@ -10,15 +10,25 @@
 		D376A3181B1CF3A500F5C165 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D376A3171B1CF3A500F5C165 /* main.m */; };
 		D376A31B1B1CF3A500F5C165 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D376A31A1B1CF3A500F5C165 /* AppDelegate.m */; };
 		D376A31E1B1CF3A500F5C165 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D376A31D1B1CF3A500F5C165 /* ViewController.m */; };
-		D376A3211B1CF3A500F5C165 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D376A31F1B1CF3A500F5C165 /* Main.storyboard */; };
 		D376A3231B1CF3A500F5C165 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D376A3221B1CF3A500F5C165 /* Images.xcassets */; };
-		D376A3261B1CF3A500F5C165 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = D376A3241B1CF3A500F5C165 /* LaunchScreen.xib */; };
 		D376A34A1B1D067D00F5C165 /* ADMMoney.m in Sources */ = {isa = PBXBuildFile; fileRef = D376A3491B1D067D00F5C165 /* ADMMoney.m */; };
 		D376A34D1B1D08DD00F5C165 /* NSObject+GNUStep.m in Sources */ = {isa = PBXBuildFile; fileRef = D376A34C1B1D08DD00F5C165 /* NSObject+GNUStep.m */; };
 		D376A3501B1D0B1500F5C165 /* ADMMoneyTest.m in Sources */ = {isa = PBXBuildFile; fileRef = D376A34F1B1D0B1500F5C165 /* ADMMoneyTest.m */; };
 		D376A3511B1D0B2600F5C165 /* ADMMoney.m in Sources */ = {isa = PBXBuildFile; fileRef = D376A3491B1D067D00F5C165 /* ADMMoney.m */; };
+		D38DFF131B1F30A600369DE6 /* ADMNotificationCenterTest.m in Sources */ = {isa = PBXBuildFile; fileRef = D38DFF121B1F30A600369DE6 /* ADMNotificationCenterTest.m */; };
+		D38DFF151B1F35F600369DE6 /* ADMWalletTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D39E1E371B1F21D300FC48F0 /* ADMWalletTableViewController.m */; };
+		D38DFF171B1F377B00369DE6 /* ADMSimpleViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D39E1E341B1EBDB400FC48F0 /* ADMSimpleViewController.xib */; };
+		D38DFF1A1B1F392C00369DE6 /* ADMWallet.m in Sources */ = {isa = PBXBuildFile; fileRef = D39E1E2B1B1E952400FC48F0 /* ADMWallet.m */; };
+		D38DFF1B1B1F393100369DE6 /* ADMBroker.m in Sources */ = {isa = PBXBuildFile; fileRef = D39E1E261B1E767F00FC48F0 /* ADMBroker.m */; };
+		D38DFF1C1B1F393E00369DE6 /* ADMViewControllerTest.m in Sources */ = {isa = PBXBuildFile; fileRef = D39E1E2E1B1EBCB900FC48F0 /* ADMViewControllerTest.m */; };
 		D39E1E241B1E758000FC48F0 /* ADMBrokerTest.m in Sources */ = {isa = PBXBuildFile; fileRef = D39E1E231B1E758000FC48F0 /* ADMBrokerTest.m */; };
 		D39E1E271B1E767F00FC48F0 /* ADMBroker.m in Sources */ = {isa = PBXBuildFile; fileRef = D39E1E261B1E767F00FC48F0 /* ADMBroker.m */; };
+		D39E1E291B1E92BA00FC48F0 /* ADMWalletTest.m in Sources */ = {isa = PBXBuildFile; fileRef = D39E1E281B1E92BA00FC48F0 /* ADMWalletTest.m */; };
+		D39E1E2C1B1E952400FC48F0 /* ADMWallet.m in Sources */ = {isa = PBXBuildFile; fileRef = D39E1E2B1B1E952400FC48F0 /* ADMWallet.m */; };
+		D39E1E331B1EBDA300FC48F0 /* ADMSimpleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D39E1E321B1EBDA300FC48F0 /* ADMSimpleViewController.m */; };
+		D39E1E351B1EBDB400FC48F0 /* ADMSimpleViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D39E1E341B1EBDB400FC48F0 /* ADMSimpleViewController.xib */; };
+		D39E1E381B1F21D300FC48F0 /* ADMWalletTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D39E1E371B1F21D300FC48F0 /* ADMWalletTableViewController.m */; };
+		D39E1E3A1B1F21DA00FC48F0 /* ADMSimpleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D39E1E321B1EBDA300FC48F0 /* ADMSimpleViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,9 +49,7 @@
 		D376A31A1B1CF3A500F5C165 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		D376A31C1B1CF3A500F5C165 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		D376A31D1B1CF3A500F5C165 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		D376A3201B1CF3A500F5C165 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D376A3221B1CF3A500F5C165 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		D376A3251B1CF3A500F5C165 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		D376A32B1B1CF3A500F5C165 /* WalletTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WalletTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D376A3301B1CF3A500F5C165 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D376A3481B1D067D00F5C165 /* ADMMoney.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ADMMoney.h; sourceTree = "<group>"; };
@@ -49,9 +57,19 @@
 		D376A34B1B1D08DD00F5C165 /* NSObject+GNUStep.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+GNUStep.h"; sourceTree = "<group>"; };
 		D376A34C1B1D08DD00F5C165 /* NSObject+GNUStep.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+GNUStep.m"; sourceTree = "<group>"; };
 		D376A34F1B1D0B1500F5C165 /* ADMMoneyTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ADMMoneyTest.m; sourceTree = "<group>"; };
+		D38DFF121B1F30A600369DE6 /* ADMNotificationCenterTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ADMNotificationCenterTest.m; sourceTree = "<group>"; };
 		D39E1E231B1E758000FC48F0 /* ADMBrokerTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ADMBrokerTest.m; sourceTree = "<group>"; };
 		D39E1E251B1E767E00FC48F0 /* ADMBroker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ADMBroker.h; sourceTree = "<group>"; };
 		D39E1E261B1E767F00FC48F0 /* ADMBroker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ADMBroker.m; sourceTree = "<group>"; };
+		D39E1E281B1E92BA00FC48F0 /* ADMWalletTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ADMWalletTest.m; sourceTree = "<group>"; };
+		D39E1E2A1B1E952400FC48F0 /* ADMWallet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ADMWallet.h; sourceTree = "<group>"; };
+		D39E1E2B1B1E952400FC48F0 /* ADMWallet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ADMWallet.m; sourceTree = "<group>"; };
+		D39E1E2E1B1EBCB900FC48F0 /* ADMViewControllerTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ADMViewControllerTest.m; sourceTree = "<group>"; };
+		D39E1E311B1EBDA300FC48F0 /* ADMSimpleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ADMSimpleViewController.h; sourceTree = "<group>"; };
+		D39E1E321B1EBDA300FC48F0 /* ADMSimpleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ADMSimpleViewController.m; sourceTree = "<group>"; };
+		D39E1E341B1EBDB400FC48F0 /* ADMSimpleViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ADMSimpleViewController.xib; sourceTree = "<group>"; };
+		D39E1E361B1F21D300FC48F0 /* ADMWalletTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ADMWalletTableViewController.h; sourceTree = "<group>"; };
+		D39E1E371B1F21D300FC48F0 /* ADMWalletTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ADMWalletTableViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +95,7 @@
 			children = (
 				D376A3141B1CF3A500F5C165 /* Wallet */,
 				D376A32F1B1CF3A500F5C165 /* Supporting Files */,
+				D38DFF111B1F308000369DE6 /* SingletonTests */,
 				D376A32E1B1CF3A500F5C165 /* WalletTests */,
 				D376A3131B1CF3A500F5C165 /* Products */,
 			);
@@ -95,14 +114,13 @@
 			isa = PBXGroup;
 			children = (
 				D376A34E1B1D08E400F5C165 /* Categories */,
+				D39E1E301B1EBCC000FC48F0 /* Controllers */,
 				D376A3401B1CF66100F5C165 /* Models */,
 				D376A3191B1CF3A500F5C165 /* AppDelegate.h */,
 				D376A31A1B1CF3A500F5C165 /* AppDelegate.m */,
 				D376A31C1B1CF3A500F5C165 /* ViewController.h */,
 				D376A31D1B1CF3A500F5C165 /* ViewController.m */,
-				D376A31F1B1CF3A500F5C165 /* Main.storyboard */,
 				D376A3221B1CF3A500F5C165 /* Images.xcassets */,
-				D376A3241B1CF3A500F5C165 /* LaunchScreen.xib */,
 				D376A3151B1CF3A500F5C165 /* Supporting Files */,
 			);
 			path = Wallet;
@@ -122,6 +140,8 @@
 			children = (
 				D376A34F1B1D0B1500F5C165 /* ADMMoneyTest.m */,
 				D39E1E231B1E758000FC48F0 /* ADMBrokerTest.m */,
+				D39E1E281B1E92BA00FC48F0 /* ADMWalletTest.m */,
+				D39E1E2E1B1EBCB900FC48F0 /* ADMViewControllerTest.m */,
 			);
 			path = WalletTests;
 			sourceTree = "<group>";
@@ -142,6 +162,8 @@
 				D376A3491B1D067D00F5C165 /* ADMMoney.m */,
 				D39E1E251B1E767E00FC48F0 /* ADMBroker.h */,
 				D39E1E261B1E767F00FC48F0 /* ADMBroker.m */,
+				D39E1E2A1B1E952400FC48F0 /* ADMWallet.h */,
+				D39E1E2B1B1E952400FC48F0 /* ADMWallet.m */,
 			);
 			name = Models;
 			sourceTree = "<group>";
@@ -153,6 +175,27 @@
 				D376A34C1B1D08DD00F5C165 /* NSObject+GNUStep.m */,
 			);
 			name = Categories;
+			sourceTree = "<group>";
+		};
+		D38DFF111B1F308000369DE6 /* SingletonTests */ = {
+			isa = PBXGroup;
+			children = (
+				D38DFF121B1F30A600369DE6 /* ADMNotificationCenterTest.m */,
+			);
+			name = SingletonTests;
+			path = WalletTests;
+			sourceTree = "<group>";
+		};
+		D39E1E301B1EBCC000FC48F0 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				D39E1E311B1EBDA300FC48F0 /* ADMSimpleViewController.h */,
+				D39E1E321B1EBDA300FC48F0 /* ADMSimpleViewController.m */,
+				D39E1E341B1EBDB400FC48F0 /* ADMSimpleViewController.xib */,
+				D39E1E361B1F21D300FC48F0 /* ADMWalletTableViewController.h */,
+				D39E1E371B1F21D300FC48F0 /* ADMWalletTableViewController.m */,
+			);
+			name = Controllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -235,8 +278,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D376A3211B1CF3A500F5C165 /* Main.storyboard in Resources */,
-				D376A3261B1CF3A500F5C165 /* LaunchScreen.xib in Resources */,
+				D39E1E351B1EBDB400FC48F0 /* ADMSimpleViewController.xib in Resources */,
 				D376A3231B1CF3A500F5C165 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -245,6 +287,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D38DFF171B1F377B00369DE6 /* ADMSimpleViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -255,12 +298,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D39E1E381B1F21D300FC48F0 /* ADMWalletTableViewController.m in Sources */,
+				D39E1E2C1B1E952400FC48F0 /* ADMWallet.m in Sources */,
 				D376A31E1B1CF3A500F5C165 /* ViewController.m in Sources */,
 				D376A34D1B1D08DD00F5C165 /* NSObject+GNUStep.m in Sources */,
 				D376A34A1B1D067D00F5C165 /* ADMMoney.m in Sources */,
 				D376A31B1B1CF3A500F5C165 /* AppDelegate.m in Sources */,
 				D376A3181B1CF3A500F5C165 /* main.m in Sources */,
 				D39E1E271B1E767F00FC48F0 /* ADMBroker.m in Sources */,
+				D39E1E331B1EBDA300FC48F0 /* ADMSimpleViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -268,9 +314,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D38DFF1A1B1F392C00369DE6 /* ADMWallet.m in Sources */,
+				D38DFF1C1B1F393E00369DE6 /* ADMViewControllerTest.m in Sources */,
+				D38DFF151B1F35F600369DE6 /* ADMWalletTableViewController.m in Sources */,
 				D39E1E241B1E758000FC48F0 /* ADMBrokerTest.m in Sources */,
+				D38DFF131B1F30A600369DE6 /* ADMNotificationCenterTest.m in Sources */,
+				D39E1E291B1E92BA00FC48F0 /* ADMWalletTest.m in Sources */,
+				D38DFF1B1B1F393100369DE6 /* ADMBroker.m in Sources */,
 				D376A3511B1D0B2600F5C165 /* ADMMoney.m in Sources */,
 				D376A3501B1D0B1500F5C165 /* ADMMoneyTest.m in Sources */,
+				D39E1E3A1B1F21DA00FC48F0 /* ADMSimpleViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -283,25 +336,6 @@
 			targetProxy = D376A32C1B1CF3A500F5C165 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		D376A31F1B1CF3A500F5C165 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				D376A3201B1CF3A500F5C165 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		D376A3241B1CF3A500F5C165 /* LaunchScreen.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				D376A3251B1CF3A500F5C165 /* Base */,
-			);
-			name = LaunchScreen.xib;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		D376A3331B1CF3A500F5C165 /* Debug */ = {

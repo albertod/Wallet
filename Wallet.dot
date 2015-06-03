@@ -1,0 +1,16 @@
+digraph G {
+	node [shape=box];
+	"ViewController" -> {};
+	"ADMBroker" -> "ADMMoney";
+	"main" -> "AppDelegate";
+	"ADMMoney" -> {};
+	"AppDelegate" -> "ADMMoney";
+	
+	
+	edge [color=blue, dir=both];
+	
+	edge [color=black];
+	node [shape=plaintext];
+	"Categories" [label="NSObject+GNUStep"];
+}
+

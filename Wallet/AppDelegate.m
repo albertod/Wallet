@@ -8,6 +8,8 @@
 
 #import "AppDelegate.h"
 #import "ADMMoney.h"
+#import "ADMWalletTableViewController.h"
+#import "ADMMoney.h"
 
 @interface AppDelegate ()
 
@@ -18,10 +20,21 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
 
-    ADMMoney *a = [ADMMoney dollarWithAmmount:5];
-    NSLog(@"Class Description %@",[a description]);
+    ADMWallet *model = [[ADMWallet alloc] initWithAmount:10 currency:@"USD"];
+    [model plus:[ADMMoney euroWithAmmount:15]];
     
+    ADMWalletTableViewController *walletVC = [[ADMWalletTableViewController alloc] initWithModel:model];
+    UINavigationController *navVC = [[UINavigationController alloc] initWithRootViewController:walletVC];
+    //Add some currencies to the model
+    [self addCurrency:model];
+    
+    self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+    // Override point for customization after application launch.
+    self.window.rootViewController = navVC;
+    [self.window makeKeyAndVisible];
     return YES;
+    
+    return nil;
 }
 
 - (void)applicationWillResignActive:(UIApplication *)application {
@@ -44,6 +57,13 @@
 
 - (void)applicationWillTerminate:(UIApplication *)application {
     // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
+}
+
+-(void) addCurrency:(ADMWallet *)model{
+    [model plus:[ADMMoney dollarWithAmmount:5]];
+    [model plus:[ADMMoney dollarWithAmmount:8]];
+    
+    [model plus:[ADMMoney euroWithAmmount:8]];
 }
 
 @end
