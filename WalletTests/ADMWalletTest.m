@@ -6,7 +6,7 @@
 //  Copyright (c) 2015 DiMartino. All rights reserved.
 //
 
-
+@import Foundation;
 #import <XCTest/XCTest.h>
 #import "ADMMoney.h"
 #import "ADMBroker.h"

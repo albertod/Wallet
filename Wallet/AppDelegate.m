@@ -62,8 +62,11 @@
 -(void) addCurrency:(ADMWallet *)model{
     [model plus:[ADMMoney dollarWithAmmount:5]];
     [model plus:[ADMMoney dollarWithAmmount:8]];
-    
     [model plus:[ADMMoney euroWithAmmount:8]];
+    
+    [model plus:[ADMMoney dollarWithAmmount:15]];
+    [model plus:[ADMMoney euroWithAmmount:42]];
+    [model plus:[ADMMoney euroWithAmmount:850]];
 }
 
 @end
